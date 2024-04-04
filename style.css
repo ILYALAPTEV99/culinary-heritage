@@ -147,3 +147,22 @@ header{
     padding-top: 30px;
     margin-left: 75px;
 }
+
+.photo_cafe{
+    width: 444px;
+    height: 444px;
+    border-radius: 300px;
+}
+
+.div_contact_cafe{
+    float: left;
+}
+
+.div_contact_cafe1{
+    float: left;
+    width: 120px;
+}
+
+.div_main_contact{
+    width: 100%;
+}
