@@ -1,10 +1,13 @@
-html, body {
+body {
+    
     margin:0;
     padding:0;
     background-color:#7B513A;
+ 
 }
 
 header{
+    margin-bottom:1000px;
     background-color: #B0895E;
     display: flex;
     justify-content: space-around;
@@ -30,6 +33,9 @@ header{
     width: 96px;
     height: 105px;
 }
+h1 {
+margin-top: 200px;
+}
 
 .main_menu{
     background: url(src/main_menu.png); /* Путь к картинке */
@@ -39,7 +45,25 @@ header{
     width: 100%;
     height: 110%;
 }
-
+main {
+    margin-top: 200;
+    
+}
+.nameinfo, .footinfo {
+align-items: flex-end;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+footer {
+    margin-top: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.nameinfo {
+    margin-left: 40px;
+}
 /*
 
 .main_text_on_main_menu{
