@@ -14,6 +14,7 @@ header{
     width: 100%;
     align-items: center;
     font-family: sans-serif;
+    z-index: 10;
 }
 
 .nav_but{
@@ -150,15 +151,17 @@ footer {
 
 .div_contact_cafe{
     float: left;
+    height: 50px;
+    width: 200px;
+    margin: 7px;
 }
 
-.div_contact_cafe1{
-    float: left;
-    /* width: 120px; */
+.div_main_contact_text{
     display: flex;
+    /*flex-direction: row;*/
     flex-wrap: wrap;
-    width: 120px;
-    height: 20px;
+    width: 500px;
+    height: 400px;
 }
 
 .div_main_contact{
@@ -174,11 +177,11 @@ footer {
 }
 
 .main_contact_head{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .main_contact_foot{
-    font-size: 32px;
+    font-size: 22px;
 }
 
 #map{
@@ -194,14 +197,37 @@ footer {
     height: 472px;
 }
 
+.div_img_about{
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+}
+
 .div_about{
     width: 871px;
     height: 420px;
     background-color: #7B513A;
     color: #ffffff;
     font-size: 32px;
+    position: absolute;
+    z-index: 6;
+    top: 350px;
+    left: 300px;
+}
+
+.div_about_main{
+    position: relative;
+    border: 1px solid pink;
+    padding-top: 50px;
+    padding-bottom: 400px;
+    padding-left: 200px;
 }
 
 .about{
     background-color: #8F6C59;
+    font-family: sans-serif;
+}
+
+.footer_items{
+    margin: auto;
 }
