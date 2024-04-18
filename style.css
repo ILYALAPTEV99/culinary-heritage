@@ -14,6 +14,7 @@ header{
     width: 100%;
     align-items: center;
     font-family: sans-serif;
+    z-index: 10;
 }
 
 .nav_but{
@@ -55,6 +56,11 @@ footer {
 .nameinfo{
     color:#ffffff;
     font-size: 24px;
+    margin-top: 28px;
+}
+
+.footinfo{
+    margin-top: 5px;
 }
 .head_button_scroll{
     outline: none;
@@ -85,6 +91,7 @@ footer {
     text-align: center;
     margin-top: 15px;
 }
+
 
 .h1_main_menu{
     color: white;
@@ -150,23 +157,29 @@ footer {
 
 .div_contact_cafe{
     float: left;
+    height: 150px;
+    width: 280px;
+    margin: 20px;
+    margin-top: 25px;
+    overflow:hidden;
 }
 
-.div_contact_cafe1{
-    float: left;
-    /* width: 120px; */
+.div_main_contact_text{
     display: flex;
+    /*flex-direction: row;*/
     flex-wrap: wrap;
-    width: 120px;
-    height: 20px;
+    width: 800px;
+    height: 400px;
+    margin-left: 10px;
 }
 
 .div_main_contact{
-    width: 100%;
+    width: 1500px;
     color: white;
     font-family: sans-serif;
     display: flex;
     justify-content: space-around;
+    margin-left: 100px;
 }
 
 .head_title_contact{
@@ -174,11 +187,13 @@ footer {
 }
 
 .main_contact_head{
-    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 36px;
 }
 
 .main_contact_foot{
-    font-size: 32px;
+    font-size: 24px;
 }
 
 #map{
@@ -194,14 +209,43 @@ footer {
     height: 472px;
 }
 
+.div_img_about{
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+}
+
 .div_about{
     width: 871px;
     height: 420px;
     background-color: #7B513A;
     color: #ffffff;
     font-size: 32px;
+    position: absolute;
+    z-index: 6;
+    top: 400px;
+    left: 450px;
+    padding-left: 20px;
+}
+
+.div_about_main{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 400px;
+    padding-left: 200px;
 }
 
 .about{
     background-color: #8F6C59;
+    font-family: sans-serif;
+}
+
+.footer_div{
+    overflow:hidden;
+    height: 150px;
+    text-align: center;
+}
+
+.about_our{
+    padding-left: 25px;
 }
