@@ -34,13 +34,22 @@ header{
 }
 
 .main_menu{
-    background: url(src/main_menu.png); /* Путь к картинке */
-    background-repeat: no-repeat; /* Фон не повторяется */
-    background-size: cover; /* Растягиваем  фон по высоте и ширине */
-    background-position: center;
-    width: 100%;
-    height: 110%;
+    position: relative;
 }
+
+.img_main_menu{
+    width: 100%;
+    height: 740px;
+    z-index: 5;
+    overflow:hidden;
+}
+
+.div_img_main_menu{
+    z-index: 5;
+    position: relative;
+}
+
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -76,12 +85,20 @@ footer {
     margin-top: 20%;
 }
 
+.main_menu_text{
+    z-index: 7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 .main_text_on_main_menu{
     color: white;
     font-size: 48px;
     font-family: sans-serif;
     text-align: center;
-    padding-top: 15%;
 }
 
 .head_text_on_main_menu{
@@ -89,7 +106,6 @@ footer {
     font-size: 80px;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 15px;
 }
 
 
