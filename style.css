@@ -273,3 +273,28 @@ footer {
 .about_our{
     padding-left: 25px;
 }
+
+.head_title_slog {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 1%;
+}
+.buy_table {
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    height: 80px;
+    background-color: #7B513A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+}
+.main_body {
+    background-size: cover;
+    padding: 140px;
+    text-align: center;
+    height:100%;
+    background-image: url("src/main_background.jpg");
+}
