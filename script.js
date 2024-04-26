@@ -1,4 +1,12 @@
 let head_button_scroll = document.querySelector('.head_button_scroll')
+let main = document.querySelector('#main')
+let about = document.querySelector('#about')
+let contact = document.querySelector('#contact')
+let book = document.querySelector('.book_table')
+main.addEventListener("click",function(){window.location.href = "index.html"})
+about.addEventListener("click",function(){window.location.href = "about.html"})
+contact.addEventListener("click",function(){window.location.href = "contact.html"})
+book.addEventListener("click",function(){window.location.href = "contact.html"})
 
 
 anime({
