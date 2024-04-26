@@ -14,10 +14,13 @@ let head_button_scroll = document.querySelector('.head_button_scroll')
 let main = document.querySelector('#main')
 let about = document.querySelector('#about')
 let contact = document.querySelector('#contact')
+let menu = document.querySelector('#menu')
 let book = document.querySelector('.book_table')
 let form = document.querySelector('.forma'); 
 
-head_button_scroll.addEventListener('click', function () {
+
+
+head_button_scroll.addEventListener('click', function(){
   form.scrollIntoView({ 
     block: 'start',
     behavior: 'smooth',
@@ -25,6 +28,7 @@ head_button_scroll.addEventListener('click', function () {
 });
 
 main.addEventListener("click",function(){window.location.href = "index.html"})
+menu.addEventListener("click",function(){window.location.href = "menu.html"})
 about.addEventListener("click",function(){window.location.href = "about.html"})
 contact.addEventListener("click",function(){window.location.href = "contact.html"})
 book.addEventListener("click",function(){window.location.href = "contact.html"})
