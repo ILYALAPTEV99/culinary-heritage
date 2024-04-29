@@ -12,7 +12,7 @@ try {
   })
 }
 catch (e) {
-    console.log("i");
+    console.log("");
 }
 
 let head_button_scroll = document.querySelector('.head_button_scroll')
@@ -42,7 +42,7 @@ try{
   });
 }
 catch(e){
-  console.log("i");
+  console.log("");
 }
 
 try {

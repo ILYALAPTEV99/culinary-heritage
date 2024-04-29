@@ -40,6 +40,7 @@ header{
     height: 740px;
     z-index: 5;
     overflow:hidden;
+    border-radius: 0 0 35px 35px;
 }
 
 .div_img_main_menu{
@@ -113,14 +114,20 @@ footer {
 .head_text_on_main_menu{
     color: white;
     font-size: 80px;
-    font-family: sans-serif;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
 }
 .h1_main_menu{
     color: white;
     text-align: center;
     font-size: 64px;
-    font-family: sans-serif;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .div_img_menu_fruit{
@@ -130,12 +137,15 @@ footer {
 .img_menu{
     width: 338px;
     height: 311px;
+    border-radius: 10px;
 }
 
 .div_menu_text{
-    color: white;
-    font-family: sans-serif;
-    font-size: 24px;
+    color: rgb(212, 211, 211);
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
     float: left;
     padding-top: 30px;
     width: 100%;
@@ -149,9 +159,11 @@ footer {
 }
 
 .div_menu_text2{
-    color: white;
-    font-family: sans-serif;
-    font-size: 24px;
+    color: rgb(212, 211, 211);
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
     float: right;
     padding-top: 30px;
     width: 100%;
@@ -164,13 +176,22 @@ footer {
 }
 
 .div_menu{
-    padding-top: 30px;
+    padding-top: 15px;
+    margin-right: 75px;
+    margin-left: 75px;
+    padding-bottom: 15px;
 }
 
 .div_menu2{
     padding-top: 30px;
     margin-left: 75px;
 }
+
+.h3_menu{
+    font-weight: 700;
+    color: white;
+}
+
 
 .photo_cafe{
     width: 444px;
@@ -410,7 +431,7 @@ footer {
 
 @media (min-width: 1400px) {
     .img_main_menu{
-        height: 900px;
+        height: 1100px;
     }
 
     .head_button_scroll{
