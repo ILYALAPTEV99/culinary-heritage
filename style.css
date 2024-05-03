@@ -360,6 +360,17 @@ footer {
         font-size: 40px;
         margin-top: 150px;
     }
+
+    .div_about{
+        width: 500px;
+        height: 320px;
+        font-size: 25px;
+    }
+
+    .img_about{
+        width: 350px;
+        height: 400px;
+    }
 }
 
 @media (min-width: 700px) {
@@ -381,6 +392,17 @@ footer {
         height: 100px;
         font-size: 60px;
         margin-top: 20%;
+    }
+
+    .div_about{
+        width: 600px;
+        height: 320px;
+        font-size: 25px;
+    }
+
+    .img_about{
+        width: 350px;
+        height: 400px;
     }
 }
 
@@ -426,6 +448,12 @@ footer {
     
     .head_text_on_main_menu{
         font-size: 80px;
+    }
+
+    .div_about{
+        width: 871px;
+        height: 420px;
+        font-size: 32px;
     }
 }
 
