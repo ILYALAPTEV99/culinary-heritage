@@ -20,8 +20,16 @@ header{
     outline: none;
     border: 0;
     background: transparent;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
+}
+.nav_but:hover {
+transition-property: color;
+transition-duration: 0.2s;
+color: #473023;
+transition-property: transform;
+transition-duration: 0.25s;
+transform: scale(1.12);
 }
 .icon_header{
     width: 116px;
@@ -313,6 +321,13 @@ footer {
     text-align: center;
     border: none;
     border-radius: 25px;
+}
+.book_table:hover {
+    transition-property: background-color;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transform: scale(1.07);
+    background-color: #583e2e;
 }
 .main_body {
     background-size: cover;
